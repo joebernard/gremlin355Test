@@ -8,7 +8,11 @@ Update `index.js` with the cluster endpoint.
 
 Zip the repo and upload to the lambda function.
 
-Run the lambda function.
+Run the lambda function with this event:
+
+    {
+      "id": "1"
+    }
 
 ## 3.3.5 results ("gremlin": "3.3.5")
 
